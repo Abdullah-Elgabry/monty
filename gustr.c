@@ -104,7 +104,7 @@ void f_srcher(char *opcode, char *value, int ln, int strct)
 		{"pall", stk_prt},
 		{"pint", fi_prt},
 		{"pop", f_pop},
-		{"do_na", do_na},
+		{"nop", nop},
 		{"swap", nde_swp},
 		{"add", nde_pls},
 		{"sub", stk_pls},

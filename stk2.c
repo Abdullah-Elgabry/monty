@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * do_na - this func will do nothing
+ * nop - this func will do nothing
  *
  * @stack: top nde ptr*
  * @line_number: opcde ->
  *
  */
 
-void do_na(stk_lif **stack, unsigned int line_number)
+void nop(stk_lif **stack, unsigned int line_number)
 {
 	(void)stack;
 	(void)line_number;

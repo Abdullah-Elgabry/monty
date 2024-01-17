@@ -66,7 +66,7 @@ void _func_getter(op_func, char *, char *, int, int);
 
 void fi_prt(stk_lif **, unsigned int);
 void f_pop(stk_lif **, unsigned int);
-void do_na(stk_lif **, unsigned int);
+void nop(stk_lif **, unsigned int);
 void nde_swp(stk_lif **, unsigned int);
 
 
