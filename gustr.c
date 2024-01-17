@@ -113,8 +113,8 @@ void f_srcher(char *opcode, char *value, int ln, int strct)
 		{"mod", mod_nodes},
 		{"pchar", prt_asc},
 		{"pstr", string_prt},
-		{"rt_nde", rt_nde},
-		{"tp_nde", tp_nde},
+		{"rotl", rotl},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 

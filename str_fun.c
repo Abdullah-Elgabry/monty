@@ -54,13 +54,13 @@ void string_prt(stk_lif **stack, __attribute__((unused))unsigned int ln)
 
 
 /**
- * rt_nde - this func will rt the nde for the stack to btm
+ * rotl - this func will rt the nde for the stack to btm
  *
  * @stack: top nde ptr*
  * @ln: opcde ->
  */
 
-void rt_nde(stk_lif **stack, __attribute__((unused))unsigned int ln)
+void rotl(stk_lif **stack, __attribute__((unused))unsigned int ln)
 {
 	stk_lif *tmp;
 
@@ -80,7 +80,7 @@ void rt_nde(stk_lif **stack, __attribute__((unused))unsigned int ln)
 
 
 /**
- * tp_nde - this func will rt the nde from tp
+ * rotr - this func will rt the nde from tp
  *
  * @stack: top nde ptr*
  *
@@ -88,7 +88,7 @@ void rt_nde(stk_lif **stack, __attribute__((unused))unsigned int ln)
  *
  */
 
-void tp_nde(stk_lif **stack, __attribute__((unused))unsigned int ln)
+void rotr(stk_lif **stack, __attribute__((unused))unsigned int ln)
 {
 	stk_lif *tmp;
 

@@ -53,7 +53,7 @@ void f_srcher(char *, char *, int, int);
 void error_msg(int _flw_err, ...);
 void error_hndler(int _flw_err, ...);
 void _hndl_strerr(int _flw_err, ...);
-void tp_nde(stk_lif **, unsigned int);
+void rotr(stk_lif **, unsigned int);
 
 
 stk_lif *nde_strc(int n);
@@ -72,7 +72,7 @@ void nde_swp(stk_lif **, unsigned int);
 
 void prt_asc(stk_lif **, unsigned int);
 void string_prt(stk_lif **, unsigned int);
-void rt_nde(stk_lif **, unsigned int);
+void rotl(stk_lif **, unsigned int);
 
 
 void nde_pls(stk_lif **, unsigned int);
